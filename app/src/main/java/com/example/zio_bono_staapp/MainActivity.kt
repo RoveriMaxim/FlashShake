@@ -184,7 +184,7 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    //Creo un alert dialog...
+    //Creo un alert dialog....
 
 
 
