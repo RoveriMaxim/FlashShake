@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ShakeThatHard!</string>
+    <string name="roveri_maxim_s_solutions">Roveri Maxim®\'s Solutions</string>
+    <string name="close_btn">Chiudi App</string>
+    <string name="navigation_drawer_open">Apri Menu</string>
+    <string name="navigation_drawer_close">Chiudi Menu</string>
+    <string name="dona">Dona</string>
+    <string name="gestisci_luminosit">Gestisci luminosità</string>
+    <string name="imposta_timer">Imposta timer</string>
+</resources>

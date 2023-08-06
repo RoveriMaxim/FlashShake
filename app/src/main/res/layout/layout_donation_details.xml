@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout_donation_details.xml -->
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Numero della carta di credito -->
+    <EditText
+        android:id="@+id/creditCardNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero della carta di credito"
+        android:inputType="number" />
+
+    <!-- Nome del titolare della carta -->
+    <EditText
+        android:id="@+id/cardHolderNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome del titolare della carta"
+        android:inputType="text" />
+
+    <!-- Data di scadenza -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/expiryMonthEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="MM"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" />
+
+        <EditText
+            android:id="@+id/expiryYearEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="YY"
+            android:inputType="number"
+            android:maxLength="2" />
+
+    </LinearLayout>
+
+    <!-- Codice di sicurezza (CVV) -->
+    <EditText
+        android:id="@+id/cvvEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CVV"
+        android:inputType="number"
+        android:maxLength="3" />
+
+    <!-- Altro elemento per la selezione del tipo di carta di credito (es. Visa, MasterCard, ecc.) -->
+    <!-- Puoi aggiungere qui un Spinner o un altro elemento a scelta. -->
+
+</LinearLayout>
